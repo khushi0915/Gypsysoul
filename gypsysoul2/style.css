@@ -1,0 +1,90 @@
+﻿
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section {
+    width: 100%;
+    min-height: 150vh;
+    background-color: #ddd;
+}
+
+.container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-section {
+    float: left;
+    width: 55%;
+}
+
+.image-section {
+    float: right;
+    width: 40%;
+}
+
+    .image-section img {
+        width: 100%;
+        height: auto;
+    }
+
+.content-section .title {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.content-section .content h3 {
+    margin-top: 20px;
+    color: cadetblue;
+    font-size: 19px;
+}
+
+.content-section .p {
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: aqua;
+}
+
+.content-section .social {
+    margin-top: 40px;
+}
+
+.content-section .section i {
+    color: azure;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+.content-section .i:hover {
+    color: aliceblue;
+}
+.image-section{
+    display:flex;
+    padding:2rem;
+}
+@media screen and (max-width:1000px) {
+    .container {
+        width: 80px;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    .content-section {
+        float: none;
+        width: 55%;
+    }
+
+        .content-section .title {
+            text-align: center;
+            font-size: 19px;
+        }
+}
